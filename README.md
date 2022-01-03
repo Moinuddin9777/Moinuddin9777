@@ -12,9 +12,9 @@
 
 - 👨‍💻 **Budding Data Scientist**
 
-- 📫 reach me **moinuddin9777@gmail.com**
-
 - ⚡ **Actively an Activist**
+
+- 📫 Reach me: **moinuddin9777@gmail.com**
 
 
 ---
@@ -24,11 +24,14 @@
 
   ---
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=moinuddin9777&show_icons=true&theme=merko&title_color=ffffff&text_color=ffd700&locale=en&layout=compact" alt="moinuddin9777" /></p>
+<p>&nbsp; <img align="right" src="https://github-readme-stats.vercel.app/api/top-langs?username=moinuddin9777&show_icons=true&theme=merko&title_color=ffffff&text_color=ffd700&locale=en&layout=compact" alt="moinuddin9777" /></p>
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=moinuddin9777&show_icons=true&locale=en&theme=merko&title_color=ffffff&text_color=ffd700" alt="moinuddin9777" /></p>
+<p>&nbsp; <img align="left" src="https://github-readme-stats.vercel.app/api?username=moinuddin9777&show_icons=true&locale=en&theme=merko&title_color=ffffff&text_color=ffd700" alt="moinuddin9777" /></p>
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=moinuddin9777&row=1&column=3&theme=matrix&no-bg=true)](https://github.com/moinuddin9777/github-profile-trophy)
+---
+
+<p>&nbsp; <img align="center" src="https://github-profile-trophy.vercel.app/?username=moinuddin9777&row=1&column=3&theme=matrix&no-bg=true" alt="moinuddin9777" />
+</p>
 
 ---
 
