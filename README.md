@@ -12,9 +12,9 @@
 
 - 👨‍💻 **Budding Data Scientist**
 
-- 📫 reach me **moinuddin9777@gmail.com**
-
 - ⚡ **Actively an Activist**
+
+- 📫 Reach me **moinuddin9777@gmail.com**
 
 
 ---
