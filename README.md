@@ -12,10 +12,13 @@
 
 - 👨‍💻 **Budding Data Scientist**
 
+- 🎓 **EC Undergrad learning what excites me**
+
 - ⚡ **Actively an Activist**
 
-- 📫 Reach me **moinuddin9777@gmail.com**
+- 💬 **Open to discussions and Collaborations**
 
+- 📫 Reach me **moinuddin9777@gmail.com** 
 
 ---
 
