@@ -7,8 +7,6 @@
 </h1>
 <h3 align="center">trying to figure out stuff through lines of code</h3>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=moinuddin9777&label=Profile%20views&color=129e00&style=plastic" alt="moinuddin9777" /> </p>
-<img align="right" width="300" height="300" src="https://media4.giphy.com/media/FoVzfcqCDSb7zCynOp/giphy.gif?cid=ecf05e472ccszmrvpity8e9o9v3hnb50fnu72miw05xe8frj&rid=giphy.gif&ct=g">
 
 - 👨‍💻 **Budding Data Scientist**
 
@@ -21,6 +19,8 @@
 - 📫 Reach me **moinuddin9777@gmail.com** 
 
 ---
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=moinuddin9777&label=Profile%20views&color=129e00&style=plastic" alt="moinuddin9777" /> </p>
+<img align="right" width="300" height="300" src="https://media4.giphy.com/media/FoVzfcqCDSb7zCynOp/giphy.gif?cid=ecf05e472ccszmrvpity8e9o9v3hnb50fnu72miw05xe8frj&rid=giphy.gif&ct=g">
 
 <h2 align="left">Tech Stack:</h2>
 <h4 align="left">Well Versed:</h4>
