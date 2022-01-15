@@ -38,7 +38,7 @@
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=moinuddin9777&show_icons=true&locale=en&theme=merko&title_color=ffffff&text_color=ffd700" alt="moinuddin9777" /></p>
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=moinuddin9777&row=1&column=3&theme=dark&no-bg=true)](https://github.com/moinuddin9777/github-profile-trophy)
+[![trophy](https://github-profile-trophy.vercel.app/?username=moinuddin9777&row=1&column=3&no-bg=true)](https://github.com/moinuddin9777/github-profile-trophy)
 
 ---
 
