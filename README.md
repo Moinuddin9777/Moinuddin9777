@@ -38,6 +38,12 @@
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=moinuddin9777&show_icons=true&locale=en&theme=merko&title_color=ffffff&text_color=ffd700" alt="moinuddin9777" /></p>
 
+---
+
+[![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=Moinuddin9777&hide_border=true&date_format=M%20j%5B%2C%20Y%5D)](https://git.io/streak-stats)
+
+---
+
 <p><img align="center" src="https://github-profile-trophy.vercel.app/?username=moinuddin9777&row=1&column=3&theme=monokai&no-bg=true" alt="moinuddin9777" /></a> </p>
 
 ---
