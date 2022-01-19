@@ -5,7 +5,7 @@
     <img src="https://github.com/JayantGoel001/JayantGoel001/blob/master/GIF/Hi.gif" width="40px" />
   </a>
 </h1>
-<h3 align="center">trying to figure out stuff through lines of code</h3>
+<h3 align="center">Trying to figure out stuff through lines of code</h3>
 
 
 - 👨‍💻 **Budding Data Scientist**
