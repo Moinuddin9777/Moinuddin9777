@@ -10,7 +10,7 @@
 
 - 👨‍💻 **Budding Data Scientist**
 
-- 🎓 **EC Undergrad learning what excites me**
+- 🎓 **EC Undergrad, learning what excites me**
 
 - ⚡ **Actively an Activist**
 
