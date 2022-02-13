@@ -8,7 +8,7 @@
 <h3 align="center">Trying to figure out stuff through lines of code</h3>
 
 
-- 👨‍💻 **Budding Data Scientist**
+- 👨‍💻 **ML Engineer, Data Engineer and Budding FLutter developer**
 
 - 🎓 **EC Undergrad, learning what excites me**
 
