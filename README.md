@@ -8,7 +8,7 @@
 <h2 align="center"> -------Just another guy who's trying to figure out stuff through lines of code------- </h2>
 
 
-- 👨‍💻 **ML Engineer who knows a bit of backend and a budding Flutter developer**
+- 👨‍💻 **Budding data scientist who knows a bit of backend and Flutter**
 
 - 🎓 **EC Undergrad, learning what excites me**
 
