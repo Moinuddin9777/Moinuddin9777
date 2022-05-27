@@ -23,9 +23,11 @@
 ---
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=moinuddin9777&label=Profile%20views&color=129e00&style=plastic" alt="moinuddin9777" /> </p>
 
+<a target"blank" rel="noferrer"> <img src="https://c.tenor.com/Z_Ah8rkdZ4YAAAAC/walking-code.gif"> </a> </p>
+
 <h2 align="left">Tech Stack:</h2>
 <h3 align="left">Well Versed:</h3>
-<p align="left"> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> 
+<p align="left"> <a href="https://www.python.org" target="blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> 
   <a href="https://jupyter.org/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/3/38/Jupyter_logo.svg" alt="Jupyter Notebook" width="40" height="40"/> </a>  
   <a href="https://opencv.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" alt="opencv" width="40" height="40"/> </a> <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/> </a> <a href="https://scikit-learn.org/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="40" height="40"/> </a> 
  
@@ -55,7 +57,7 @@
 ---
 
 <h3 align="center">Connect with me:</h3> 
-<a target="_blank">
+<a target="blank">
   <p align="center">
     <img src="https://github.com/JayantGoel001/JayantGoel001/blob/master/GIF/Handshake.gif" height="25px" style="max-width:100%;">
     </p>
