@@ -8,13 +8,15 @@
 <h2 align="center"> -------Just another guy who's trying to figure out stuff through lines of code------- </h2>
 
 
-- 👨‍💻 **Budding data scientist who knows a bit of backend and Flutter**
+- 👨‍💻 **Budding Developer**
 
 - 🎓 **EC Undergrad, learning what excites me**
 
 - ⚡ **Actively an Activist**
 
 - 💬 **Open to discussions and Collaborations**
+
+- 🔎 **Looking for oppurtunities in Data Science, Flutter, MERN Stack**
 
 - 📫 Reach me **moinuddin9777@gmail.com** 
 
