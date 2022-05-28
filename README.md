@@ -23,7 +23,6 @@
 ---
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=moinuddin9777&label=Profile%20views&color=129e00&style=plastic" alt="moinuddin9777" /> </p>
 
-<a target"blank" rel="noferrer"> <img src="https://c.tenor.com/Z_Ah8rkdZ4YAAAAC/walking-code.gif"> </a> </p>
 
 <h2 align="left">Tech Stack:</h2>
 <h3 align="left">Well Versed:</h3>
