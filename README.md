@@ -16,7 +16,7 @@
 
 - 💬 **Open to discussions and Collaborations**
 
-- 🔎 **Looking for oppurtunities in Data Science, Flutter, MERN Stack**
+- 🔎 **Looking for oppurtunities in Flutter, MERN Stack, Data Science**
 
 - 📫 Reach me **moinuddin9777@gmail.com** 
 
