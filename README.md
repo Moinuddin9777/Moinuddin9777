@@ -10,7 +10,7 @@
 
 - 👨‍💻 **Budding Developer**
 
-- 🎓 **EC Undergrad, learning what excites me**
+- 🎓 **EC Grad, learning what excites me**
 
 - ⚡ **Actively an Activist**
 
