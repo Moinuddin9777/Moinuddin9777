@@ -70,6 +70,6 @@
 
  <h2>     </h2>
  
- <h2>HacktoberFest 2022 Challenge</h2>
+ <h2>HacktoberFest 2022 Challenge of 4/4 merged PRs</h2>
  
  [![@moinuddin9777's Holopin board](https://holopin.me/moinuddin9777)](https://holopin.io/@moinuddin9777)
