@@ -47,9 +47,11 @@
 
  <h2 align="left">Stats:</h2>
  
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=moinuddin9777&show_icons=true&theme=merko&title_color=ffffff&text_color=ffd700&locale=en&layout=compact" alt="moinuddin9777" /></p>
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=moinuddin9777&show_icons=true&locale=en&theme=merko&title_color=ffffff&text_color=ffd700" alt="moinuddin9777"/></p>
+ 
+<p><img align="left" src="https://github-readme-stats-ten-gilt.vercel.app/api/top-langs?username=moinuddin9777&hide=jupyter+notebook&show_icons=true&theme=merko&title_color=ffffff&text_color=ffd700&locale=en&layout=compact" alt="moinuddin9777" /></p>
+
+<p>&nbsp;<img align="center" src="https://github-readme-stats-ten-gilt.vercel.app/api?username=moinuddin9777&show_icons=true&locale=en&theme=merko&title_color=ffffff&text_color=ffd700" alt="moinuddin9777"/></p>
 
 <p><img align="center" src="https://github-profile-trophy.vercel.app/?username=moinuddin9777&row=1&column=5&theme=monokai&no-bg=true" alt="moinuddin9777" /></a> </p>
 
