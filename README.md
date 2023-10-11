@@ -17,8 +17,6 @@
 - 📫 Reach me **moinuddin9777@gmail.com** 
 
 ---
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=moinuddin9777&label=Profile%20views&color=129e00&style=plastic" alt="moinuddin9777" /> </p>
-
 
 <h2 align="left"> I work with: </h2>
 
