@@ -42,8 +42,8 @@ My name is Moin
 So... What I do ?
 
 - I work as an SDE - Mobile, most of my work consists of Flutter and Dart
-- My prime areas of expertise are Fintech, eCommerce and IoT
-- Besides this I make fairly good ML projects
+- My prime domains of expertise are Fintech, eCommerce and IoT
+- Besides this I make fairly good ML models
 
 ---
 
