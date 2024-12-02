@@ -12,7 +12,7 @@ My name is Moin
 ---
 
 
-- 👨‍💻 **Flutter | AI&ML | UI/UX | Web3**
+- 👨‍💻 **Flutter | AI&ML | Fintech | Web3**
 
 - ⚡ **BUIDLing tech and tech communities...**
 
