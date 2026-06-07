@@ -41,9 +41,10 @@ My name is Moin
 
 So... What I do ?
 
-- I work as an SDE - Mobile, most of my work consists of Flutter and Dart
-- My prime domains of expertise are Fintech, eCommerce and IoT
-- Besides this I make fairly good ML models
+- I work as an SDE - III, Language and framework agnostic
+- 5+ years of building software and working around AI Orchestration and Applied Machine learning
+- Consulted over 25+ startups
+- Besides this I lead tech communities with over 3000+ members
 
 ---
 
