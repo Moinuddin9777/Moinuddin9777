@@ -7,14 +7,14 @@ My name is Moin
     <img src="https://github.com/JayantGoel001/JayantGoel001/blob/master/GIF/Hi.gif" width="40px" />
   </a>
 </h1>
-<h3 align="center">  Trying to figure out stuff through lines of code </h3>
+<h3 align="center"> Engineering cool stuff | Solving problems | Creating Impact </h3>
 
 ---
 
 
-- 👨‍💻 **Flutter | AI&ML | Fintech | Web3**
+- 👨‍💻 **SaaS | AI&ML | Fintech | Web3**
 
-- ⚡ **BUIDLing tech and tech communities...**
+- ⚡ **Building tech and tech communities...**
 
 - 💬 **Open to discussions and Collaborations**
 
