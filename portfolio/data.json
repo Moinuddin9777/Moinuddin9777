@@ -1,0 +1,163 @@
+{
+  "hero": {
+    "name": "Moinuddin",
+    "shortName": "Moin",
+    "title": "Making Tech possible for everyone",
+    "tagline": "Building amazing stuff through lines of code.",
+    "resumeUrl": "#",
+    "social": [
+      {
+        "name": "LinkedIn",
+        "url": "https://linkedin.com/in/moinuddin9777",
+        "icon": "linkedin"
+      },
+      {
+        "name": "Twitter",
+        "url": "https://twitter.com/moin971",
+        "icon": "twitter"
+      },
+      {
+        "name": "GitHub",
+        "url": "https://github.com/moinuddin9777",
+        "icon": "github"
+      },
+      {
+        "name": "Medium",
+        "url": "https://medium.com/@moinuddin9777",
+        "icon": "medium"
+      }
+    ]
+  },
+  "about": {
+    "description": "I am language and framework agnostic engineer who loves to solve real world problems with technology. Currently I work as an SDE-III with expertise in AI/ML, App Development (Flutter/Dart) and SaaS Products. My prime domains of expertise are Fintech, Quantitative Finance, eCommerce, and IoT. I'm also deeply involved in the community, leading the TensorFlow User Group (TFUG) in Hyderabad. I love building high-performance technical solutions and occasionally write about Machine Learning and mobile development on Medium."
+  },
+  "skills": {
+    "title": "What I do",
+    "description": "A Crazy engineer who loves to create impactful solutions and build amazing communities",
+    "techStack": ["Flutter", "Dart", "Machine Learning", "Fintech", "Quant", "eCommerce", "TensorFlow", "React", "Next.js"],
+    "details": [
+      "⚡ Building that right website or app that solves your business problem",
+      "⚡ Developing cross-platform applications",
+      "⚡ Creating AI/ML models fit for your needs"
+    ]
+  },
+  "proficiency": [
+    { "skill": "Applied Machine Learning", "value": 70 },
+    { "skill": "On Demand AI", "value": 80 },
+    { "skill": "Mobile Development", "value": 90 },
+    { "skill": "Web Development", "value": 85 },
+    { "skill": "Quant", "value": 60 }
+  ],
+  "education": [
+    {
+      "schoolName": "European Inst of Leadership Management",
+      "subHeader": "(Distance) PGDM in Innovation and Entrepreneurship",
+      "duration": "2023-24",
+      "desc": "Studied Innovation and Entrepreneurship.",
+      "descBullets": [
+        "Completed an intensive 1-year Post Graduate Diploma program in Innovation and Entrepreneurship.",
+        "Focused on lean startup methodologies, design thinking, and go-to-market strategies for new ventures."
+      ]
+    },
+    {
+      "schoolName": "JNTUH - Affiliated College",
+      "subHeader": "Bachelor of Technology - Computer Science Engineering",
+      "duration": "2017-2021",
+      "desc": "Studied Electronics and Communication Engineering.",
+      "descBullets": [
+        "Completed an intensive 4-year program in Electronics and Communication Engineering.",
+        "Focused on building a strong foundation in electronics, communication systems, and computer science fundamentals.",
+        "Yeah was an Embedded engineer earlier then I switched to full stack and now I am a Software Generalist."
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "role": "SDE-III",
+      "company": "Quantana Pvt Ltd",
+      "date": "July 2025 – Present",
+      "desc": "Working on high-performance mobile and web applications, integrating AI/ML models.",
+      "descBullets": [
+        "Developed key features using Flutter and Dart.",
+        "Implemented quantitative finance models using Python."
+      ]
+    },
+    {
+      "role": "SDE-II",
+      "company": "Tradelab Technologies Pvt Ltd",
+      "date": "Jul 2024 – Aug 2024",
+      "desc": "Built finance specific cross-platform SaaS products.",
+      "descBullets": [
+        "Implemented cost-effective finance solutions, resulting in a significant reduction in project expenses on Firebase and others.",
+        "Delivered an end to end AI based Finance SaaS application built on a custom model trained on top of opem models.",
+        "Led a team of interns to deliver tailormade solutions as per the product requirements"
+      ]
+    },
+    {
+      "role": "SDE-I",
+      "company": "Anvayuone Technologies Pvt Ltd",
+      "date": "Oct 2023 – Jun 2024",
+      "desc": "Built finance specific cross-platform SaaS products.",
+      "descBullets": [
+        "Implemented cost-effective finance solutions, resulting in a significant reduction in project expenses on Firebase and others.",
+        "Delivered an end to end AI based Finance SaaS application built on a custom model trained on top of opem models.",
+        "Led a team of interns to deliver tailormade solutions as per the product requirements"
+      ]
+    },
+    {
+      "role": "Associate Software Engineer",
+      "company": "Contenterra Software Pvt Ltd",
+      "date": "Jul 2022 – Sep 2023",
+      "desc": "Working on high-performance mobile and web applications.",
+      "descBullets": [
+        "Built visually appealing and seamless mobile applications as per project requirements.",
+        "Was responsible for building and maintaining robust, scalable, and efficient mobile applications.",
+        "Was part of a young team and was the center of making important decisions on development and delivery."
+      ]
+    },
+    {
+      "role": "Junior ML Engineer (Applied)",
+      "company": "Multiple Stealth Startups",
+      "date": "Jan 2021 – Jun 2022",
+      "desc": "Worked on machine learning models for various applications.",
+      "descBullets": [
+        "Implemented quantative prediction algorithms for high frequency trading.",
+        "Worked with quantative analytics in financial data and predicted volatility",
+        "Implemented machine learning applications and services as per the project requirements"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "TFUG Hyderabad",
+      "description": "Leading the TensorFlow User Group in Hyderabad, organizing community events and technical workshops.",
+      "link": "#"
+    },
+    {
+      "name": "Quantitative Finance Models",
+      "description": "Developing ML models for Fintech applications, focusing on metrics like the Sharpe Ratio for risk-adjusted returns.",
+      "link": "#"
+    },
+    {
+      "name": "Computer Vision Apps",
+      "description": "Built various mobile applications using Flutter and TensorFlow Lite, including digit detection and real-time mask detection systems.",
+      "link": "#"
+    }
+  ],
+  "achievements": [
+    {
+      "title": "Hackathon Winner",
+      "subtitle": "Won 1st place in National AI Hackathon"
+    },
+    {
+      "title": "Open Source Contributor",
+      "subtitle": "Top contributor in major Flutter repositories"
+    }
+  ],
+  "contact": {
+    "title": "Reach Out to me!",
+    "subtitle": "DISCUSS A PROJECT OR JUST WANT TO SAY HI? MY INBOX IS OPEN FOR ALL.",
+    "email": "moinuddin9777@gmail.com",
+    "location": "Hyderabad, India"
+  }
+}

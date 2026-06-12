@@ -1,0 +1,245 @@
+:root {
+  --primary: #6c63ff; /* Electric Purple */
+  --secondary: #00e5ff; /* Neon Cyan */
+  --tertiary: #ffeb3b; /* Vibrant Yellow */
+  --accent: #ff4081; /* Hot Pink */
+  
+  --base-bg: #171c28; /* Deep Slate from DeveloperFolio */
+  --surface-bg: rgba(33, 41, 54, 0.7); /* Translucent Surface */
+  
+  --text-primary: #ffffff;
+  --text-secondary: rgba(255, 255, 255, 0.8);
+  
+  --font-display: 'Stack Sans Notch Variable', sans-serif;
+  --font-body: 'Inter', sans-serif;
+  --font-code: 'Fira Code', monospace;
+}
+
+@font-face {
+  font-family: 'Stack Sans Notch Variable';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 200 700;
+  src: url('https://cdn.jsdelivr.net/fontsource/fonts/stack-sans-notch:vf@latest/latin-wght-normal.woff2') format('woff2');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Fira+Code:wght@400;500&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: var(--base-bg);
+  color: var(--text-primary);
+  font-family: var(--font-body);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  min-height: 100vh;
+  position: relative;
+  overflow-x: hidden;
+}
+
+/* Massive Vibrant Mesh Gradients */
+body::before, body::after {
+  content: '';
+  position: fixed;
+  width: 800px;
+  height: 800px;
+  border-radius: 50%;
+  filter: blur(150px);
+  z-index: -1;
+  opacity: 0.3;
+  pointer-events: none;
+}
+
+body::before {
+  background: var(--primary);
+  top: -300px;
+  left: -200px;
+  animation: float-mesh 20s infinite alternate ease-in-out;
+}
+
+body::after {
+  background: var(--secondary);
+  bottom: -300px;
+  right: -200px;
+  animation: float-mesh 25s infinite alternate-reverse ease-in-out;
+}
+
+@keyframes float-mesh {
+  0% { transform: translate(0, 0) scale(1); }
+  50% { transform: translate(100px, 50px) scale(1.1); }
+  100% { transform: translate(-50px, 100px) scale(0.9); }
+}
+
+/* Glass Floating Dock */
+.floating-dock {
+  position: fixed;
+  bottom: 32px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(23, 28, 40, 0.8);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 50px;
+  padding: 16px 40px;
+  display: flex;
+  gap: 32px;
+  z-index: 100;
+  box-shadow: 0 10px 40px -10px rgba(108, 99, 255, 0.4);
+}
+
+.floating-dock a {
+  color: var(--text-primary);
+  text-decoration: none;
+  font-family: var(--font-display);
+  font-size: 15px;
+  font-weight: 600;
+  opacity: 0.7;
+  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.floating-dock a:hover {
+  opacity: 1;
+  color: var(--secondary);
+  transform: scale(1.1);
+}
+
+/* Typography */
+.display-text {
+  font-family: var(--font-display);
+  font-size: 72px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  line-height: 1.1;
+  background: linear-gradient(135deg, #fff, rgba(255,255,255,0.7));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.label-caps {
+  font-family: var(--font-display);
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--secondary);
+}
+
+/* Vibrant Glass Cards */
+.glass-card {
+  background: var(--surface-bg);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-radius: 24px;
+  padding: 40px;
+  position: relative;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  box-shadow: 0 20px 40px -15px rgba(0, 0, 0, 0.5);
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  overflow: hidden;
+}
+
+.glass-card:hover {
+  transform: translateY(-8px) scale(1.02);
+  border-color: rgba(108, 99, 255, 0.3);
+  box-shadow: 0 30px 60px -15px rgba(108, 99, 255, 0.2);
+}
+
+/* Buttons */
+.btn-primary {
+  background: var(--primary);
+  color: #fff;
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 16px;
+  padding: 16px 40px;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  box-shadow: 0 10px 20px -5px rgba(108, 99, 255, 0.5);
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.btn-primary:hover {
+  box-shadow: 0 15px 30px -5px rgba(108, 99, 255, 0.7);
+  transform: translateY(-4px) scale(1.05);
+}
+
+.btn-secondary {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(12px);
+  color: #fff;
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 16px;
+  padding: 16px 40px;
+  border-radius: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.btn-secondary:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: var(--secondary);
+  color: var(--secondary);
+  transform: translateY(-4px) scale(1.05);
+}
+
+/* Pills */
+.pill {
+  background: rgba(255, 255, 255, 0.05);
+  color: #fff;
+  font-family: var(--font-code);
+  padding: 10px 20px;
+  border-radius: 50px;
+  border: 1px solid rgba(255,255,255,0.1);
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 15px;
+  transition: all 0.3s ease;
+}
+
+.pill:hover {
+  background: rgba(108, 99, 255, 0.15);
+  border-color: var(--primary);
+  color: var(--primary);
+  transform: scale(1.05);
+}
+
+.layout-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 80px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 160px;
+}
+
+/* Custom illustration blob animation */
+.blob-illustration {
+  position: absolute;
+  filter: blur(40px);
+  z-index: -1;
+  border-radius: 50%;
+  animation: blob-bounce 10s infinite alternate ease-in-out;
+}
+
+@keyframes blob-bounce {
+  0% { transform: scale(1) translate(0, 0); }
+  100% { transform: scale(1.2) translate(20px, -20px); }
+}
