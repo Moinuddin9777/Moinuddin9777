@@ -29,24 +29,51 @@
     ]
   },
   "about": {
-    "description": "I am language and framework agnostic engineer who loves to solve real world problems with technology. Currently I work as an SDE-III with expertise in AI/ML, App Development (Flutter/Dart) and SaaS Products. My prime domains of expertise are Fintech, Quantitative Finance, eCommerce, and IoT. I'm also deeply involved in the community, leading the TensorFlow User Group (TFUG) in Hyderabad. I love building high-performance technical solutions and occasionally write about Machine Learning and mobile development on Medium."
+    "description": {
+      "paragraph1": "I am language and framework agnostic engineer who loves to solve real world problems with technology. Currently I work as an SDE-III with expertise in AI/ML, App Development and SaaS Products.",
+      "paragraph2": "I have been working since the past 5 years making SaaS applications and AI solutions across different domains. My prime domains of expertise are Fintech, Quantitative Finance, SaaS, and AI.",
+      "paragraph3": "I'm also deeply involved in the open source and tech communities, leading the AI Community formerly TensorFlow User Groups in Hyderabad and couple of other communitites and initiatives."
+    }
   },
   "skills": {
     "title": "What I do",
-    "description": "A Crazy engineer who loves to create impactful solutions and build amazing communities",
-    "techStack": ["Flutter", "Dart", "Machine Learning", "Fintech", "Quant", "eCommerce", "TensorFlow", "React", "Next.js"],
+    "description": "I love to create impactful solutions that solve your business problems with technology and AI.",
+    "techStack": [
+      "SaaS",
+      "FullStack",
+      "Cross Platform Apps",
+      "Fintech",
+      "Quant",
+      "HFT",
+      "AI Orchestration"
+    ],
     "details": [
-      "⚡ Building that right website or app that solves your business problem",
-      "⚡ Developing cross-platform applications",
-      "⚡ Creating AI/ML models fit for your needs"
+      "Build the right software product as per your vision and requirements.",
+      "Guide and train your team to accomplish your tech vision and shape it.",
+      "Make AI based solutions possible for you and enable your team to use AI effectively."
     ]
   },
   "proficiency": [
-    { "skill": "Applied Machine Learning", "value": 70 },
-    { "skill": "On Demand AI", "value": 80 },
-    { "skill": "Mobile Development", "value": 90 },
-    { "skill": "Web Development", "value": 85 },
-    { "skill": "Quant", "value": 60 }
+    {
+      "skill": "Applied Machine Learning",
+      "value": 70
+    },
+    {
+      "skill": "On Demand AI",
+      "value": 80
+    },
+    {
+      "skill": "Mobile Development",
+      "value": 90
+    },
+    {
+      "skill": "Web Development",
+      "value": 85
+    },
+    {
+      "skill": "Quant",
+      "value": 60
+    }
   ],
   "education": [
     {
@@ -76,21 +103,22 @@
       "role": "SDE-III",
       "company": "Quantana Pvt Ltd",
       "date": "July 2025 – Present",
-      "desc": "Working on high-performance mobile and web applications, integrating AI/ML models.",
+      "desc": "Delivering high-performance SaaS products along with AI Orchestration.",
       "descBullets": [
-        "Developed key features using Flutter and Dart.",
-        "Implemented quantitative finance models using Python."
+        "Building and delivering cross platform SaaS products with focus on performance and scalability",
+        "Architecting and implementing complex AI systems using cutting-edge AI orchestration and workflow patterns",
+        "Contributing to core product strategy and architecture decisions at the system level"
       ]
     },
     {
       "role": "SDE-II",
       "company": "Tradelab Technologies Pvt Ltd",
-      "date": "Jul 2024 – Aug 2024",
-      "desc": "Built finance specific cross-platform SaaS products.",
+      "date": "Jul 2024 – Jul 2025",
+      "desc": "Built enterprise grade trading products.",
       "descBullets": [
-        "Implemented cost-effective finance solutions, resulting in a significant reduction in project expenses on Firebase and others.",
-        "Delivered an end to end AI based Finance SaaS application built on a custom model trained on top of opem models.",
-        "Led a team of interns to deliver tailormade solutions as per the product requirements"
+        "Developed white label trading applications for stock market brokers and customers.",
+        "Led a team in successfully delivering a stock trading products for one of the biggest financial institutions of India",
+        "Responsible for building and maintaining robust, scalable, and efficient fintech solutions tailored to product needs"
       ]
     },
     {
@@ -129,19 +157,39 @@
   ],
   "projects": [
     {
-      "name": "TFUG Hyderabad",
-      "description": "Leading the TensorFlow User Group in Hyderabad, organizing community events and technical workshops.",
-      "link": "#"
+      "name": "Agnik: Demat, Trading & Stocks",
+      "description": "Agnik is the official mobile-first digital trading and investment platform developed by mastertrust (Master Capital Services Limited), one of the biggest stock broker in India. The app unifies multi-asset trading, portfolio analytics, and Demat account management into a single interface linked directly with the National Stock Exchange (NSE), Bombay Stock Exchange (BSE), and Multi Commodity Exchange (MCX)",
+      "link": "https://play.google.com/store/apps/details?id=com.mastertrust.agnik&hl=en_IN",
+      "category": "Fintech - Trading",
+      "image": "/images/agnik.jpg"
     },
     {
-      "name": "Quantitative Finance Models",
-      "description": "Developing ML models for Fintech applications, focusing on metrics like the Sharpe Ratio for risk-adjusted returns.",
-      "link": "#"
+      "name": "Pen by Pentad",
+      "description": "Pen by Pentad is a mobile and web-based financial trading application developed by Pentad Securities Private Limited. The platform allows retail investors and traders in India to track, analyse, and execute trades across all major asset classes.Multi-Market Trading: Trade in equities, Exchange Traded Funds (ETFs), and derivatives products.Order Customisation: Support for multiple order types including market, limit, stop-loss, and cover orders.Market Insights: View real-time market data, use tracking tools, and access curated news feeds.",
+      "link": "https://play.google.com/store/apps/details?id=in.pentad.pen&hl=en_IN",
+      "category": "Fintech - Trading",
+      "image": "/images/pentad.png"
     },
     {
-      "name": "Computer Vision Apps",
-      "description": "Built various mobile applications using Flutter and TensorFlow Lite, including digit detection and real-time mask detection systems.",
-      "link": "#"
+      "name": "Stocko - South Asian Stocks",
+      "description": "Advanced options tools when you need them. Detailed option chain with real-time Greeks, quick strike selection, GTT & Iceberg orders, built for active F&O traders. TradingView charts in your pocket Analyse markets with TradingView charts and advanced technical tools without leaving the Stocko 2.0 app. Real-time trading dashboard",
+      "link": "https://play.google.com/store/apps/details?id=in.alpha.sasonline&hl=en_IN",
+      "category": "Fintech - Trading",
+      "image": "/images/stocko.png"
+    },
+    {
+      "name": "CipherRisk",
+      "description": "CipherRisk is an institutional-grade risk assessment platform leveraging Fhenix fhEVM's Fully Homomorphic Encryption (FHE) to address Web3 financial doxxing by enabling complex, native computation on encrypted data [1.1]. By processing leverage ratios and net asset values while keeping proprietary inputs hidden from public validators and front-runners, the platform provides a secure alternative to transparent blockchains [1.1]. Utilizing EIP-712 cryptographic signatures for user-authorized decryption, CipherRisk offers a private, verifiable, and composable solution for on-chain financial analytics",
+      "link": "https://github.com/Moinuddin9777/CipherRisk",
+      "category": "AI & DeFi",
+      "image": "/images/cipherrisk.png"
+    },
+    {
+      "name": "Kisanlink",
+      "description": "Comprehensive digital solutions designed to modernize agriculture and empower both FPOs and individual farmers with technology-driven tools.",
+      "link": "https://www.kisanlink.in/",
+      "category": "Agri Tech",
+      "image": "/images/kisanlink.png"
     }
   ],
   "achievements": [

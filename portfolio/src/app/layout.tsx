@@ -14,11 +14,11 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         
         {/* Floating Glass Dock */}
         <nav className="floating-dock">
-          <a href="#hero">Home</a>
-          <a href="#about">About</a>
-          <a href="#projects">Projects</a>
-          <a href="#skills">Skills</a>
-          <a href="#contact">Contact</a>
+          <a href="/#hero">Home</a>
+          <a href="/#about">About</a>
+          <a href="/projects">Projects</a>
+          <a href="/#skills">Skills</a>
+          <a href="/#contact">Contact</a>
         </nav>
       </body>
     </html>

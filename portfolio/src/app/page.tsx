@@ -1,7 +1,7 @@
 "use client";
 
 import data from '../../data.json';
-import { Github, Linkedin, Twitter, Mail, MapPin, ExternalLink, Briefcase, GraduationCap, Trophy, Terminal, Code2, MonitorPlay } from 'lucide-react';
+import { Github, Linkedin, Twitter, Mail, MapPin, ExternalLink, Briefcase, GraduationCap, Trophy, Terminal, Code2, MonitorPlay, Cpu, Users } from 'lucide-react';
 import { motion, useScroll, useTransform } from 'framer-motion';
 
 import Sparkles from './components/animations/Sparkles';
@@ -69,7 +69,7 @@ export default function Home() {
           <motion.div
             animate={{ y: [-15, 15, -15], rotate: [-2, 2, -2] }}
             transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }}
-            className="glass-card" style={{ position: 'absolute', top: '10%', right: '40%', width: '220px', height: '300px', padding: '10px', background: 'rgba(255,255,255,0.05)', border: '1px solid rgba(255,255,255,0.1)', zIndex: 3 }}
+            className="glass-card" style={{ position: 'absolute', top: '10%', right: '40%', width: '260px', height: '330px', padding: '10px', background: 'rgba(255,255,255,0.05)', border: '1px solid rgba(255,255,255,0.1)', zIndex: 3 }}
           >
             <img src="/images/1.jpg" alt="Portfolio Image 1" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '12px' }} />
           </motion.div>
@@ -77,7 +77,7 @@ export default function Home() {
           <motion.div
             animate={{ y: [15, -15, 15], rotate: [5, -5, 5] }}
             transition={{ duration: 7, repeat: Infinity, ease: "easeInOut" }}
-            className="glass-card" style={{ position: 'absolute', bottom: '5%', right: '20%', width: '180px', height: '240px', padding: '10px', background: 'rgba(255,255,255,0.05)', border: '1px solid rgba(255,255,255,0.1)', zIndex: 2 }}
+            className="glass-card" style={{ position: 'absolute', bottom: '5%', right: '20%', width: '200px', height: '240px', padding: '10px', background: 'rgba(255,255,255,0.05)', border: '1px solid rgba(255,255,255,0.1)', zIndex: 2 }}
           >
             <img src="/images/2.jpg" alt="Portfolio Image 2" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '12px' }} />
           </motion.div>
@@ -103,44 +103,76 @@ export default function Home() {
           <h3 className="display-text" style={{ fontSize: '56px' }}>{data.skills.title}</h3>
         </motion.div>
 
-        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '64px', alignItems: 'center' }}>
-          {/* Abstract Skills Illustration */}
-          <motion.div variants={popIn} style={{ position: 'relative', height: '100%', minHeight: '400px', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-            <div className="blob-illustration" style={{ width: '350px', height: '350px', background: 'var(--tertiary)', opacity: 0.4, top: '20%', left: '20%' }}></div>
-            <motion.div
-              animate={{ y: [15, -15, 15], rotate: [5, -5, 5] }}
-              transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }}
-              className="glass-card" style={{ width: '250px', height: '250px', borderRadius: '50px', display: 'flex', justifyContent: 'center', alignItems: 'center', zIndex: 10 }}
-            >
-              <Code2 size={100} color="var(--tertiary)" strokeWidth={1.5} style={{ filter: 'drop-shadow(0 0 20px rgba(255, 235, 59, 0.6))' }} />
-            </motion.div>
-          </motion.div>
+        <div style={{ display: 'flex', flexDirection: 'column', gap: '48px', alignItems: 'center', width: '100%' }}>
+          
+          {/* One liner heading */}
+          <motion.p variants={springUp} style={{ fontSize: '28px', color: 'var(--primary)', fontWeight: 700, textAlign: 'center', maxWidth: '800px', lineHeight: 1.4 }}>
+            {data.skills.description}
+          </motion.p>
 
-          <motion.div variants={staggerContainer} style={{ display: 'flex', flexDirection: 'column', gap: '32px' }}>
-            <motion.p variants={springUp} style={{ fontSize: '24px', color: 'var(--primary)', fontWeight: 700 }}>
-              {data.skills.description}
-            </motion.p>
-            <ul style={{ listStyleType: 'none', display: 'flex', flexDirection: 'column', gap: '16px' }}>
-              {data.skills.details.map((detail, idx) => (
-                <motion.li variants={springUp} key={idx} style={{ color: 'var(--text-secondary)', fontSize: '18px', display: 'flex', alignItems: 'center', gap: '12px' }}>
-                  <Terminal size={20} color="var(--secondary)" /> {detail}
-                </motion.li>
-              ))}
-            </ul>
-            <motion.div variants={springUp} style={{ display: 'flex', flexWrap: 'wrap', gap: '16px', marginTop: '24px' }}>
-              {data.skills.techStack.map((skill, idx) => (
-                <div key={idx} className="pill">
-                  <span style={{ width: '10px', height: '10px', borderRadius: '50%', background: idx % 2 === 0 ? 'var(--secondary)' : 'var(--accent)' }}></span>
-                  {skill}
-                </div>
-              ))}
+          {/* Floating cards with paragraph each in a row */}
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '32px', width: '100%' }}>
+            <motion.div 
+              variants={popIn} 
+              animate={{ y: [-10, 10, -10] }} 
+              transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
+              className="glass-card" style={{ padding: '40px 32px', display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center', background: 'linear-gradient(180deg, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.01) 100%)', borderTop: '1px solid rgba(255,255,255,0.1)', boxShadow: '0 20px 40px rgba(0,0,0,0.2)' }}
+            >
+              <div style={{ width: '64px', height: '64px', borderRadius: '20px', background: 'rgba(0, 229, 255, 0.1)', display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: '24px', boxShadow: '0 0 20px rgba(0, 229, 255, 0.2)' }}>
+                <Code2 size={32} color="var(--primary)" />
+              </div>
+              <h4 style={{ fontSize: '22px', fontWeight: 700, marginBottom: '16px', color: '#fff', fontFamily: 'var(--font-display)' }}>Engineering</h4>
+              <p style={{ color: 'var(--text-secondary)', fontSize: '16px', lineHeight: 1.8 }}>
+                {data.about.description.paragraph1}
+              </p>
             </motion.div>
+            
+            <motion.div 
+              variants={popIn} 
+              animate={{ y: [10, -10, 10] }} 
+              transition={{ duration: 7, repeat: Infinity, ease: "easeInOut" }}
+              className="glass-card" style={{ padding: '40px 32px', display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center', background: 'linear-gradient(180deg, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.01) 100%)', borderTop: '1px solid rgba(255,255,255,0.1)', boxShadow: '0 20px 40px rgba(0,0,0,0.2)' }}
+            >
+              <div style={{ width: '64px', height: '64px', borderRadius: '20px', background: 'rgba(108, 99, 255, 0.1)', display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: '24px', boxShadow: '0 0 20px rgba(108, 99, 255, 0.2)' }}>
+                <Cpu size={32} color="var(--secondary)" />
+              </div>
+              <h4 style={{ fontSize: '22px', fontWeight: 700, marginBottom: '16px', color: '#fff', fontFamily: 'var(--font-display)' }}>Expertise</h4>
+              <p style={{ color: 'var(--text-secondary)', fontSize: '16px', lineHeight: 1.8 }}>
+                {data.about.description.paragraph2}
+              </p>
+            </motion.div>
+            
+            <motion.div 
+              variants={popIn} 
+              animate={{ y: [-8, 8, -8] }} 
+              transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }}
+              className="glass-card" style={{ padding: '40px 32px', display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center', background: 'linear-gradient(180deg, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.01) 100%)', borderTop: '1px solid rgba(255,255,255,0.1)', boxShadow: '0 20px 40px rgba(0,0,0,0.2)' }}
+            >
+              <div style={{ width: '64px', height: '64px', borderRadius: '20px', background: 'rgba(255, 0, 255, 0.1)', display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: '24px', boxShadow: '0 0 20px rgba(255, 0, 255, 0.2)' }}>
+                <Users size={32} color="var(--tertiary)" />
+              </div>
+              <h4 style={{ fontSize: '22px', fontWeight: 700, marginBottom: '16px', color: '#fff', fontFamily: 'var(--font-display)' }}>Community</h4>
+              <p style={{ color: 'var(--text-secondary)', fontSize: '16px', lineHeight: 1.8 }}>
+                {data.about.description.paragraph3}
+              </p>
+            </motion.div>
+          </div>
+
+          {/* Horizontal list of chips */}
+          <motion.div variants={springUp} style={{ display: 'flex', flexWrap: 'wrap', gap: '16px', justifyContent: 'center', marginTop: '16px' }}>
+            {data.skills.techStack.map((skill, idx) => (
+              <div key={idx} className="pill" style={{ fontSize: '16px', padding: '12px 24px' }}>
+                <span style={{ width: '10px', height: '10px', borderRadius: '50%', background: idx % 2 === 0 ? 'var(--secondary)' : 'var(--accent)' }}></span>
+                {skill}
+              </div>
+            ))}
           </motion.div>
         </div>
       </motion.section>
 
       {/* PROFICIENCY BARS */}
       <motion.section
+        id="skills"
         initial="hidden" whileInView="visible" viewport={{ once: true, amount: 0.3 }} variants={staggerContainer}
       >
         <motion.div variants={springUp} className="glass-card" style={{ padding: '64px', borderTop: '5px solid var(--primary)' }}>
